@@ -43,7 +43,7 @@ const Card = () => {
     <div className="flex justify-center items-center my-2">
       {apod && (
         <div className="rounded-md overflow-hidden shadow-lg w-2/3 bg-gray-100 border-x-2 border-b-2">
-          <img className="w-full" src={apod.url} alt="APOD" />
+          <img className="w-full h-1/2" src={apod.url} alt="APOD" />
           <div className="px-6 py-4">
             <div>
               <div className="font-bold text-xl mb-2">{apod.title}</div>
